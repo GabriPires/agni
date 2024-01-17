@@ -1,12 +1,10 @@
+import { colors } from './src/tokens/colors'
+import { fonts } from './src/tokens/fonts'
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   darkMode: ['class'],
-  content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-  ],
+  content: ['./src/**/*.{ts,tsx}'],
   prefix: '',
   theme: {
     container: {
@@ -18,6 +16,9 @@ module.exports = {
     },
     extend: {
       colors: {
+        agni: {
+          ...colors,
+        },
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -57,6 +58,10 @@ module.exports = {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
+      fontFamily: {
+        sans: [fonts.sans, 'sans-serif'],
+        mono: [fonts.mono, 'monospace'],
+      },
       keyframes: {
         'accordion-down': {
           from: { height: '0' },
@@ -74,4 +79,7 @@ module.exports = {
     },
   },
   plugins: [require('tailwindcss-animate')],
+  export: {
+    purge: ['./src/**/*.{js,jsx,ts,tsx}'],
+  },
 }
