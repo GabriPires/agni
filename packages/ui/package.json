@@ -1,0 +1,12 @@
+{
+  "name": "@agni/ui",
+  "version": "1.0.0",
+  "description": "Bem-vindo ao Agni! Este é um conjunto abrangente de recursos de design que visa unificar a aparência e a experiência do usuário em todos os nossos projetos. Utilize o Agni para garantir consistência, eficiência e acessibilidade em todas as interfaces que você desenvolve.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
