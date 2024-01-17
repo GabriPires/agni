@@ -1,5 +1,5 @@
 {
-  "extends": "@agni/ts-config/react.json",
+  "extends": "@agni-ui/ts-config/react.json",
   "include": ["src"],
   "compilerOptions": {
     "baseUrl": ".",

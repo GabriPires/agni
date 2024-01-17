@@ -1,5 +1,5 @@
 {
-  "name": "@agni/eslint-config",
+  "name": "@agni-ui/eslint-config",
   "license": "ISC",
   "private": true,
   "version": "1.0.0",

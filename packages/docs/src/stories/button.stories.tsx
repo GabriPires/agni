@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Button, type ButtonProps } from '@agni/ui'
+import { Button, type ButtonProps } from '@agni-ui/react'
 import { User } from 'lucide-react'
 
 export default {

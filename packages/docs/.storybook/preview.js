@@ -1,4 +1,4 @@
-import '@agni/ui/dist/index.css'
+import '@agni-ui/react/dist/index.css'
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {

@@ -1,5 +1,5 @@
 {
-  "name": "@agni/docs",
+  "name": "@agni-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,9 +11,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@agni/eslint-config": "*",
-    "@agni/ts-config": "*",
-    "@agni/ui": "*",
+    "@agni-ui/eslint-config": "*",
+    "@agni-ui/ts-config": "*",
+    "@agni-ui/react": "*",
     "@storybook/addon-essentials": "^7.6.9",
     "@storybook/addon-interactions": "^7.6.9",
     "@storybook/addon-links": "^7.6.9",
