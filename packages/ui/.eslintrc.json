@@ -1,0 +1,3 @@
+{
+  "extends": ["@agni/eslint-config"]
+}

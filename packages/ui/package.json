@@ -4,9 +4,20 @@
   "description": "Bem-vindo ao Agni! Este é um conjunto abrangente de recursos de design que visa unificar a aparência e a experiência do usuário em todos os nossos projetos. Utilize o Agni para garantir consistência, eficiência e acessibilidade em todas as interfaces que você desenvolve.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --clean --watch",
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react --clean",
+    "lint": "eslint src --ext .ts,.tsx --fix"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@agni/eslint-config": "*",
+    "@agni/ts-config": "*",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "react": "^18.2.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
 }
