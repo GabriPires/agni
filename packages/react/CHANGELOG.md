@@ -1,5 +1,11 @@
 # @agni-ui/react
 
+## 1.4.1
+
+### Patch Changes
+
+- update build scripts
+
 ## 1.4.0
 
 ### Minor Changes
