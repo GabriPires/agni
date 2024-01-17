@@ -2,6 +2,7 @@
   "name": "@agni/eslint-config",
   "license": "ISC",
   "private": true,
+  "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
     "@gabpires/eslint-config": "^1.2.0",
