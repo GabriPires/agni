@@ -1,5 +1,5 @@
-import { colors } from './src/tokens/colors'
-import { fonts } from './src/tokens/fonts'
+import { colors } from './tokens/colors'
+import { fonts } from './tokens/fonts'
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
