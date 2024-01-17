@@ -1,5 +1,11 @@
 # @agni-ui/react
 
+## 1.4.0
+
+### Minor Changes
+
+- add new page components
+
 ## 1.3.0
 
 ### Minor Changes
