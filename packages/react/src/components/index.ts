@@ -40,3 +40,6 @@ export * from './ui/toggle'
 export * from './ui/toggle-group'
 export * from './ui/tooltip'
 export * from './ui/use-toast'
+
+export * from './header'
+export * from './sidebar'
