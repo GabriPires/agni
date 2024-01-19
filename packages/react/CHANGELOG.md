@@ -1,5 +1,11 @@
 # @agni-ui/react
 
+## 1.5.3
+
+### Major Changes
+
+- remove preflight
+
 ## 1.5.2
 
 ### Patch Changes

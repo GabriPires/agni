@@ -4,9 +4,6 @@ import { fonts } from './tokens/fonts'
 
 module.exports = {
   content: ['./src/**/*.{ts,tsx}'],
-  corePlugins: {
-    preflight: false,
-  },
   darkMode: ['class'],
   prefix: '',
   theme: {

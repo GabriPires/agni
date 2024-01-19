@@ -1,6 +1,6 @@
 {
   "name": "@agni-ui/react",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Bem-vindo ao Agni! Este é um conjunto abrangente de recursos de design que visa unificar a aparência e a experiência do usuário em todos os nossos projetos. Utilize o Agni para garantir consistência, eficiência e acessibilidade em todas as interfaces que você desenvolve.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
