@@ -1,5 +1,11 @@
 # @agni-ui/react
 
+## 1.5.0
+
+### Minor Changes
+
+- styles changes
+
 ## 1.4.4
 
 ### Patch Changes
