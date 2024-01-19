@@ -1,5 +1,11 @@
 # @agni-ui/react
 
+## 1.4.4
+
+### Patch Changes
+
+- new button variants
+
 ## 1.4.3
 
 ### Patch Changes
