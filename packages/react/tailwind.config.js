@@ -8,7 +8,7 @@ module.exports = {
     preflight: false,
   },
   darkMode: ['class'],
-  prefix: 'agni-',
+  prefix: '',
   theme: {
     container: {
       center: true,

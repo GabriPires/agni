@@ -1,5 +1,11 @@
 # @agni-ui/react
 
+## 1.5.2
+
+### Patch Changes
+
+- remove prefix
+
 ## 1.5.1
 
 ### Patch Changes
