@@ -2,6 +2,7 @@
   "name": "@agni-ui/docs",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "dev": "storybook dev -p 6006",
