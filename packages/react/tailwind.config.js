@@ -3,9 +3,12 @@ import { fonts } from './tokens/fonts'
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  darkMode: ['class'],
   content: ['./src/**/*.{ts,tsx}'],
-  prefix: '',
+  corePlugins: {
+    preflight: false,
+  },
+  darkMode: ['class'],
+  prefix: 'agni-',
   theme: {
     container: {
       center: true,
